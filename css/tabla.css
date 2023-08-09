@@ -1,0 +1,66 @@
+
+.tabla {
+    text-align: center;
+   
+}
+
+
+.content-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: center;
+    padding: 20px;
+	width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: medium;
+
+}
+
+.hard {
+    background-color: #0F9D58;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: large;
+    width: 50%;
+    text-align-last: center;
+   
+}
+
+
+.soft {
+    background-color:  #4285F4;
+    color: #ffffff;
+    font-weight: bold;
+    font-size:large;
+    text-align-last: center;
+    
+}
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    padding-left: 24px;
+    text-align: left;
+    
+}
+
+
+
+
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.content-table li::marker {
+    color: #F4B400;
+    content: "►";
+  }
