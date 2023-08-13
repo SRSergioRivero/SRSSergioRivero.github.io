@@ -1,0 +1,37 @@
+/*!
+	Zocial Butons
+	http://zocial.smcllns.com
+	by Sam Collins (@smcllns)
+	License: https://opensource.org/licenses/mit-license.php
+	
+	You are free to use and modify, as long as you keep this license comment intact or link back to zocial.smcllns.com on your site.
+*/
+
+/* configuar cookies */
+
+.cookies {
+	position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 50px;
+    background: #fdfdfd;
+    margin: 10px;
+    transition: .5s;
+	border: 2px solid #0F9D58;
+}
+.cookies:hover {
+    background-color: #0F9D58;
+}
+
+.cookies:hover a {
+    color: #fdfdfd; 
+}
+
+
+.footer{
+	background-color:#fdfdfd;
+}
+

@@ -1,0 +1,164 @@
+/* Botones para descargar */
+
+#wrap {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#wrap br {
+    display: none;
+}
+
+.btn-slide, .btn-slide2, .btn-slide3, .btn-slide4 {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 50px;
+    background: #fdfdfd;
+    margin: 10px;
+    transition: .5s;
+}
+
+.btn-slide {
+	border: 2px solid #4285F4;
+}
+
+.btn-slide2 {
+    border: 2px solid #DB4437;
+}
+
+.btn-slide3 {
+    border: 2px solid #F4B400;
+}
+
+.btn-slide4 {
+    border: 2px solid #0F9D58;
+}
+
+.btn-slide:hover {
+    background-color: #4285F4;
+}
+
+.btn-slide2:hover {
+    background-color: #DB4437;
+}
+
+.btn-slide3:hover {
+    background-color: #F4B400;
+}
+
+.btn-slide4:hover {
+    background-color: #0F9D58;
+}
+
+.btn-slide:hover span.circle, .btn-slide2:hover span.circle2, .btn-slide3:hover span.circle3, .btn-slide4:hover span.circle4 {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fdfdfd;
+}
+
+.btn-slide:hover span.circle {
+    color: #4285F4;
+}
+
+.btn-slide2:hover span.circle2 {
+    color: #DB4437;
+}
+
+.btn-slide3:hover span.circle3 {
+    color: #F4B400;
+}
+
+.btn-slide4:hover span.circle4 {
+    color: #0F9D58;
+}
+.btn-slide:hover span.title, .btn-slide2:hover span.title2, .btn-slide3:hover span.title3, .btn-slide4:hover span.title4 {
+    left: 40px;
+    opacity: 0;
+}
+
+.btn-slide:hover span.title-hover, .btn-slide2:hover span.title-hover2, .btn-slide3:hover span.title-hover3, .btn-slide4:hover span.title-hover4 {
+    opacity: 1;
+    left: 40px;
+}
+
+.btn-slide span.circle, .btn-slide2 span.circle2, .btn-slide3 span.circle3, .btn-slide4 span.circle4 {
+    display: block;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.btn-slide span.circle {
+	background-color: #4285F4;
+}
+
+.btn-slide2 span.circle2 {
+    background-color: #DB4437;
+}
+
+.btn-slide3 span.circle3 {
+    background-color: #F4B400;
+}
+
+.btn-slide3 span.circle4 {
+    background-color: #0F9D58;
+}
+
+.btn-slide span.title,
+  .btn-slide span.title-hover, .btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2, .btn-slide3 span.title3,
+  .btn-slide3 span.title-hover3, .btn-slide4 span.title4,
+  .btn-slide4 span.title-hover4   {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.btn-slide span.title,
+  .btn-slide span.title-hover {
+    color: #4285F4;
+    left: 80px;
+}
+
+.btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    color: #DB4437;
+    left: 80px;
+}
+
+.btn-slide3 span.title3,
+  .btn-slide3 span.title-hover3 {
+    color: #F4B400;
+    left: 80px;
+}
+
+.btn-slide4 span.title4,
+  .btn-slide4 span.title-hover4 {
+    color: #0F9D58;
+    left: 80px;
+}
+
+.btn-slide span.title-hover, .btn-slide2 span.title-hover2, .btn-slide3 span.title-hover3, .btn-slide4 span.title-hover4 {
+    left: 80px;
+    opacity: 0;
+}
+
+.btn-slide span.title-hover, .btn-slide2 span.title-hover2, .btn-slide3 span.title-hover3, .btn-slide4 span.title-hover4 {
+    color: #fff;
+}
+ 

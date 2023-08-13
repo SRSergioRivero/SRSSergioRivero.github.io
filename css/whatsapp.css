@@ -1,0 +1,31 @@
+/*!
+	Zocial Butons
+	http://zocial.smcllns.com
+	by Sam Collins (@smcllns)
+	License: https://opensource.org/licenses/mit-license.php
+	
+	You are free to use and modify, as long as you keep this license comment intact or link back to zocial.smcllns.com on your site.
+*/
+
+/* WhatsApp */
+#whatsapp {
+	position: fixed;
+	bottom: 20px;
+	right:20px;
+	
+ }
+
+ svg {
+	width: 48px;
+	filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+
+ }
+
+ circle {
+	fill: #25d366;
+	
+ }
+ path {
+	fill: #25D366;
+ }
+
