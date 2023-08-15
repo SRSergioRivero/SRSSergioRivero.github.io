@@ -1,26 +1,83 @@
+
+
 @font-face{
     font-family: tiza;
-    src: url(../font/DkCrayonCrumble-ddll.ttf);
+    src: url(../font/Lost_and_Found.ttf);
 }
 .tiza{
-    font-family: 'Times New Roman', Times, serif;
-    color: ghostwhite;
-}
-
-.tiza2{
     font-family: tiza;
     color: ghostwhite;
 }
 
+.tiza p{ 
+	
+	font-family: tiza;	
+}
+
+.tiza li{ 
+	
+	font-family: 'Times New Roman', Times, serif;	
+}
+
+.tiza > div{ 
+	
+	font-family: tiza;
+	font-weight: bolder;	
+}
 
 @font-face{
-    font-family: gruesa;
-    src: url(../font/tiza.ttf);
+    font-family: maquina;
+    src: url(../font/SilkRemington-SBold.ttf);
 }
-.gruesa{
-    font-family: gruesa;
-    color: ghostwhite;
+.maquina{
+    font-family: maquina;	
 }
+
+.maquina p{ 
+	font-family: maquina;
+	margin-left: 100px; 	
+}
+.maquina h3{ 
+	font-family: maquina;
+	margin-left: 100px; 	
+}
+
+.maquina li{ 
+	margin-left: 120px; 
+	font-family: 'Times New Roman', Times, serif;	
+}
+
+.maquina > div{ 
+	margin-left: 100px; 
+	font-family: maquina;
+}
+
+@font-face{
+    font-family: amstrad;
+    src: url(../font/PC_PetMe.ttf);
+}
+.ordenador{
+    font-family: amstrad;
+	color: ghostwhite;
+	background-color: #0001ab;	
+}
+
+.ordenador p{ 
+	font-family: amstrad;
+	padding: 10px;
+		
+}
+.ordenador h3{ 
+	font-family: amstrad;
+	padding: 10px;
+}
+
+.ordenador a{
+	color: #04fe44;
+}
+
+
+
 .acceso{
     /* text-align: center; */
     background: #3e9025;
@@ -86,14 +143,13 @@
 	margin-left: 64px; 
 	font-family: 'Times New Roman', Times, serif;
 	
-	font-size: 24px;
+	
 }
 
 .leyes li{ 
-	margin-left: 64px; 
+	margin-left: 74px; 
 	font-family: 'Times New Roman', Times, serif;
 	
-	font-size: 24px;
 }
 
 .leyes > div{ 
@@ -124,7 +180,7 @@
 }
 
 .agradecido{
-    /* text-align: center; */
+ 
     background: #3e9025;
 	color: #fff;
 	border-color: #f9fd05;
@@ -134,10 +190,10 @@
 	-moz-transition: 0.5s ease-out;
 	-o-transition: 0.5s ease-out;
 	transition: 0.5s ease-out;
-	text-align: center;
-	font-size: 30px;
+
+	
 	padding: 10px;
-	margin-bottom: 15px;
+	
 	clear: both;
 	display: block;
 	width: 100%;
@@ -145,7 +201,8 @@
 	-moz-border-radis: 6px;
 	border-radius: 6px;
     font-weight: bold;
-	margin-left: 64px;
+	margin: 60px;
+	
 }
 
 
@@ -161,3 +218,67 @@
 	color: #4285F4;
 	font-weight: bold;
 }
+
+.parpadea {
+  
+	animation-name: parpadeo;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+  
+	-webkit-animation-name:parpadeo;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	 100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+	0% { opacity: 1.0; }
+	 50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+  }
+  .parpadea {
+  
+	animation-name: parpadeo;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+  
+	-webkit-animation-name:parpadeo;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+
+
+  }
+  
+  @-moz-keyframes parpadeo{  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	 100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+	0% { opacity: 1.0; }
+	 50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+  }
