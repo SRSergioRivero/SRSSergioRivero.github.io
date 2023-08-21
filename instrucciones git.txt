@@ -8,4 +8,40 @@ git commit -m "cambios"
 
 git push origin main
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+Voy por formación administración
+ADELA CAycoya fue 2015 no 2020
+Falta quitar experiencia sobrante según las profesiones
+"Recuerda que puedes ver el resto de mi experiencia laboral en la vesión completa de este CV"
+(poner versión completa con enlace la web e icono)             (ponerla directamente pulsando en la imágen full versión)                       
+
+
+En los encabezados adaptar DESARROLLADOR WEB Y GRADUADO EN DIRECCIÓN Y ADMINISTRACIÓN DE EMPRESAS
+
+DOCENTE: 		DOCENTE, GRADUADO EN DIRECCIÓN Y ADMINISTRACIÓN DE EMPRESAS Y DESARROLLADOR WEB
+ADMINISTRATIVO: 		GRADUADO EN DIRECCIÓN Y ADMINISTRACIÓN DE EMPRESAS
+INFORMATICO:		DESARROLLADOR WEB Y GRADUADO EN DIRECCIÓN Y ADMINISTRACIÓN DE EMPRESAS
+
+Sergio Rivero Salazar - sobra en el pie de página
+
+
+En el título:
+1º Certificado en Docencia
+2º Graduado en Dirección y administración de empresas
+3º Certificado en Desarrollo de aplicaciones con tecnologías web.
+EN INFORMÁTICA - style="background-color: #0001ab;"
+
+En todas las secciones cambiar pizzarra por su correspondiente. 
+
+azul
+
+#00007e
+
+amarillo
+
+#dae360
+
+verde
+#04fe44
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

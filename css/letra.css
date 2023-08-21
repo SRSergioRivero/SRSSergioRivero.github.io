@@ -8,21 +8,15 @@
     font-family: tiza;
     color: ghostwhite;
 }
-
-.tiza p{ 
-	
-	font-family: tiza;	
-}
-
-.tiza li{ 
-	
-	font-family: 'Times New Roman', Times, serif;	
-}
-
-.tiza > div{ 
-	
+#pizarra_negra{
+	background-color: 	#262626;
 	font-family: tiza;
-	font-weight: bolder;	
+	color: ghostwhite;
+}
+#pizarra_verde{
+	background-color: 	#49622b;
+	font-family: tiza;
+	color: ghostwhite;
 }
 
 @font-face{
@@ -30,16 +24,13 @@
     src: url(../font/SilkRemington-SBold.ttf);
 }
 .maquina{
-    font-family: maquina;	
+    font-family: maquina;
+	margin-left: 100px; 	
 }
 
-.maquina p{ 
+.maquina a{ 
 	font-family: maquina;
-	margin-left: 100px; 	
-}
-.maquina h3{ 
-	font-family: maquina;
-	margin-left: 100px; 	
+	color: #0001ab;
 }
 
 .maquina li{ 
@@ -47,36 +38,16 @@
 	font-family: 'Times New Roman', Times, serif;	
 }
 
-.maquina > div{ 
-	margin-left: 100px; 
-	font-family: maquina;
-}
-
 @font-face{
     font-family: amstrad;
     src: url(../font/PC_PetMe.ttf);
 }
-.ordenador{
-    font-family: amstrad;
+
+#teclado{
+	background-color: blue;
+	font-family: amstrad;
 	color: ghostwhite;
-	background-color: #0001ab;	
 }
-
-.ordenador p{ 
-	font-family: amstrad;
-	padding: 10px;
-		
-}
-.ordenador h3{ 
-	font-family: amstrad;
-	padding: 10px;
-}
-
-.ordenador a{
-	color: #04fe44;
-}
-
-
 
 .acceso{
     /* text-align: center; */
@@ -218,67 +189,3 @@
 	color: #4285F4;
 	font-weight: bold;
 }
-
-.parpadea {
-  
-	animation-name: parpadeo;
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-  
-	-webkit-animation-name:parpadeo;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-  }
-  
-  @-moz-keyframes parpadeo{  
-	0% { opacity: 1.0; }
-	50% { opacity: 0.0; }
-	100% { opacity: 1.0; }
-  }
-  
-  @-webkit-keyframes parpadeo {  
-	0% { opacity: 1.0; }
-	50% { opacity: 0.0; }
-	 100% { opacity: 1.0; }
-  }
-  
-  @keyframes parpadeo {  
-	0% { opacity: 1.0; }
-	 50% { opacity: 0.0; }
-	100% { opacity: 1.0; }
-  }
-  .parpadea {
-  
-	animation-name: parpadeo;
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-  
-	-webkit-animation-name:parpadeo;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-
-
-
-  }
-  
-  @-moz-keyframes parpadeo{  
-	0% { opacity: 1.0; }
-	50% { opacity: 0.0; }
-	100% { opacity: 1.0; }
-  }
-  
-  @-webkit-keyframes parpadeo {  
-	0% { opacity: 1.0; }
-	50% { opacity: 0.0; }
-	 100% { opacity: 1.0; }
-  }
-  
-  @keyframes parpadeo {  
-	0% { opacity: 1.0; }
-	 50% { opacity: 0.0; }
-	100% { opacity: 1.0; }
-  }
